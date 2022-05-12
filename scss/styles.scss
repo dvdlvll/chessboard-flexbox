@@ -40,19 +40,14 @@ body {
 }
 
 .black-square {
+    @extend %square-properties;
     background-color: $black;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
 }
 
 .white-square {
+    @extend %square-properties;
     background-color: $white;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .white-piece {
