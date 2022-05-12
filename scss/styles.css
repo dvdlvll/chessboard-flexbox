@@ -21,6 +21,11 @@
   padding: 0;
 }
 
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #769656;
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,6 +38,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 3vh auto;
+  font-size: 3vmin;
+  color: #EEEED2;
 }
 
 #chessboard-container {
